@@ -1,0 +1,12 @@
+Écrivez une requête SQL permettant de récupérer :
+
+   1. uniquement les champs "ville_nom_simple", "ville_population_2012", "ville_code_postal", "ville_surface"
+   2. dans la limite des 10 premières entrées
+
+1.SELECT ville_nom_simple, ville_population_2012, ville_code_postal, ville_surface FROM `villes_france_free` 
+
+Cela me permet de prendre en comptre plusieurs listes.
+
+2.SELECT ville_nom_simple, ville_population_2012, ville_code_postal, ville_surface FROM `villes_france_free` LIMIT 0,10 
+
+Cela me permet de limiter le nombre de colomne a afficher a 10.
