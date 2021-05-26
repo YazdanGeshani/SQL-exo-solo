@@ -1,0 +1,7 @@
+Écrivez une requête SQL permettant de récupérer :
+les 10 villes les plus peuplées en 2012.
+
+SELECT ville_nom_simple, ville_population_2012 FROM villes_france_free ORDER BY ville_population_2012 DESC LIMIT 0,10
+
+
+
