@@ -1,0 +1,12 @@
+Level 4
+
+Écrivez une requête SQL permettant de récupérer :
+
+  1.le nombre de villes rattachées à un département
+  2.avec les départements ayant le moins de villes en premier
+  3.dans la limite de 20
+  
+1.SELECT ville_departement,COUNT(ville_departement) AS nb_villes FROM villes_france_free GROUP BY ville_departement 
+ORDER BY ville_departement ASC LIMIT 0,20
+
+cela me permet de faire une liste des elements qui ont le meme parents( ici le meme departements)
