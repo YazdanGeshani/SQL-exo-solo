@@ -1,0 +1,3 @@
+on nous demande de filtrer dans la table le nom de toute les villes commencant par saint.
+
+j'ai trouvé comme solution : "SELECT ville_nom FROM `villes_france_free` WHERE ville_nom LIKE 'SAINT%'"
