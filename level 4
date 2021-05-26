@@ -10,3 +10,8 @@ Level 4
 ORDER BY ville_departement ASC LIMIT 0,20
 
 cela me permet de faire une liste des elements qui ont le meme parents( ici le meme departements)
+
+2/3.SELECT ville_departement,COUNT(ville_departement) AS nb_villes FROM villes_france_free GROUP BY ville_departement 
+ORDER BY `nb_villes`  ASC LIMIT 0,20
+
+tout est correct comme demandé.
